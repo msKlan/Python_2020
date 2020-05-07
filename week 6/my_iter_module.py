@@ -1,6 +1,7 @@
-# from NotFoundException import NotFoundException
+# import NotFoundException      #kunne ikke finde denne exception
 import pandas as pd
 import requests
+
 
 
 class my_iter_module():
@@ -18,7 +19,7 @@ class my_iter_module():
         return 'File succesfully downloaded'
         # re = requests.get(url)
 
-    def multidownload(self, url_list):
+    def multi_download(self, url_list):
         # uses threads to download multiple urls as text and stores filenames as a property
         pass
 
