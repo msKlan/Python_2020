@@ -1,0 +1,7 @@
+from io import StringIO
+data = StringIO("""make,model,year,price
+vw,up,2018,123000
+audi,a6,2011,85000
+citroen,c3,2019,143000""")
+
+df = pd.read_csv(data)
